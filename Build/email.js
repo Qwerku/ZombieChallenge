@@ -16,7 +16,7 @@ function sendOutAnEmail(subjectToSend, bodyToSend) {
 		Body : bodyToSend
 		//Subject : "This is the subject",
         //Body : "And this is the body"
-    }).then(
-        message => alert(message)
-    );
+    });    
 }
+//}).then(
+    //    message => alert(message)
