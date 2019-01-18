@@ -8,9 +8,10 @@ function sendOutAnEmail(subjectToSend, bodyToSend) {
     
 	//Code snippet below directly from https://smtpjs.com/
 	//MODIFY THE STRINGS BELOW TO MATCH WHATEVER EMAIL SERVER+CREDENTIALS YOU WANT TO USE FOR SENDING EMAILS!!
+    //The security token below was generated at smtpjs.com using smtp.gmail.com, chair.spraguecas.com, gmail.com, and port 587
     Email.send({
         SecureToken : "24532be4-bf07-43e8-8e58-a4a59680d598",
-        To : 'chair.spraguecas@gmail.com',
+        To : '3xg7hlkh@robot.zapier.com',
         From : "chair.spraguecas@gmail.com",
 		Subject : subjectToSend,
 		Body : bodyToSend
